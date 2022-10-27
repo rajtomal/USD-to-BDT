@@ -1,0 +1,40 @@
+.usd_to_bdt {
+	width: 400px;
+	padding: 40px 0;
+	border-radius: 20px;
+	margin: 0 auto;
+	text-align: center;
+	--tw-gradient-from: #2563eb;
+	--tw-gradient-to: #3b82f6;
+	--tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+	background-image: linear-gradient(to bottom,var(--tw-gradient-stops));
+	margin-top: 30px;
+}
+.usd_to_bdt h1 {
+	color: #fff;
+	font-size: 22px;
+	text-align: start;
+	padding-left: 40px;
+	padding-top: 20px;
+}
+.taka{
+    color: rgb(185, 28, 28);
+}
+.number {
+	width: 200px;
+	height: 29px;
+	appearance: textfield;
+	padding: 0px 10px;
+	border: 0;
+	border-radius: 5px;
+}
+.submit {
+	padding: 7px 20px;
+	color: #fff;
+	background: #ae048c;
+	font-size: 15px;
+	border: navajowhite;
+	font-weight: 600;
+	border-radius: 5px;
+	margin-left: 5px;
+}
