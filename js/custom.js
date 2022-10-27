@@ -3,7 +3,7 @@ let btn = document.getElementById('submit');
 
 btn.addEventListener('click', function(){
     var taka = 100.21;
-    let result = taka * parseInt(input.value);
+    let result = taka * parseFloat(input.value);
     document.getElementById("taka").innerHTML = result.toFixed(2);
     input.value = "";
 });
@@ -20,16 +20,6 @@ btn1.addEventListener("click", function(){
     input1.value = "";
 })
 
-// ludo calculation start
-
-const ludu_number = [1, 2, 3, 4, 5, 6]
-
-ludu_number.Math.random(1,6);
-
-console.log('ludu_number')
 
 
 
-
-var name1 = "Onik Hasan";
-console.log("tomal")
